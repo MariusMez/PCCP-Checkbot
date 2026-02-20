@@ -1,0 +1,13 @@
+{
+  "obs_lon": 7.07181,
+  "obs_lat": 43.60,
+  "obs_alt": 50,
+  "min_alt_obj": 20.0,
+  "max_sun_alt": -12.0,
+  "max_mag": 21.0,
+  "macos_notify": true,
+  "macos_sound": "Glass",
+  "discord_enabled": false,
+  "discord_webhook_url": "https://discord.com/api/webhooks/VOTRE_ID/VOTRE_TOKEN",
+  "discord_mention": ""
+}
