@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>fr.gapra.r85.cometwatch</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <!-- ⚠️ Mettez ici le chemin complet vers cron_wrapper.sh sur VOTRE Mac -->
+        <string>/Users/marius/Documents/DEV/comet-watch/cron_wrapper.sh</string>
+    </array>
+
+    <!-- Toutes les heures -->
+    <key>StartInterval</key>
+    <integer>3600</integer>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/tmp/cometwatch.stdout.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/tmp/cometwatch.stderr.log</string>
+
+    <!-- Garder en vie si crash -->
+    <key>KeepAlive</key>
+    <false/>
+</dict>
+</plist>
